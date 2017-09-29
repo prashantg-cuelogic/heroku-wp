@@ -71,7 +71,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "./support/app_slug_compile.sh"
+            "support/app_slug_compile.sh"
         ]
     }
 }

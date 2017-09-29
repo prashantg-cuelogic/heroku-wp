@@ -36,10 +36,10 @@ type heroku >/dev/null 2>&1 || {
 }
 
 # Create new app and check for success
-heroku apps:create "$1" || {
-	echo >&2 "Could not create Heroku WP app."
-	exit 1
-}
+#heroku apps:create "$1" || {
+#	echo >&2 "Could not create Heroku WP app."
+#	exit 1
+#}
 
 # Add Redis Cache
 heroku addons:create \
